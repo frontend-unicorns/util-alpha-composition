@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { ThemeProvider } from 'styled-components'
+
 import { App } from 'App'
 import { theme } from 'styles/theme'
+
+import * as serviceWorker from './serviceWorker'
 
 const renderApp = () => {
   ReactDOM.render(
@@ -18,3 +21,5 @@ if (module.hot) {
 }
 
 renderApp()
+
+serviceWorker.register()
