@@ -19,7 +19,6 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${theme.color.background.light};
     color: ${theme.color.text.dark};
     font-size: 0.8rem;
-    height: 100%;
     text-align: center;
   }
 

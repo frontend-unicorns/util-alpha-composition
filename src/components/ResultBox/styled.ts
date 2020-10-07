@@ -8,12 +8,12 @@ export const Text = styled.p`
 `
 
 export const Wrapper = styled.div`
-  display: inline-block;
-  margin: 1rem 0.75rem;
+  margin: 0.75rem;
   padding: 0.75rem;
   width: calc(100% - 1.5rem);
 
   ${mq.md} {
+    display: inline-block;
     max-width: 320px;
   }
 `

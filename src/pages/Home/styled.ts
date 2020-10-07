@@ -29,6 +29,6 @@ export const Title = styled.h1`
 
   ${mq.md} {
     font-size: 1.8rem;
-    margin: 3.5rem 0 1rem;
+    margin: 10vh 0 1rem;
   }
 `
