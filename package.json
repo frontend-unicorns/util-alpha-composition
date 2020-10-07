@@ -1,0 +1,50 @@
+{
+  "name": "util-alpha-composition",
+  "version": "0.1.0",
+  "homepage": "https://frontend-unicorns.github.io/util-alpha-composition",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "sanitize.css": "^12.0.1",
+    "styled-components": "^5.1.1",
+    "typescript": "~4.0.3"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "dev": "react-scripts start",
+    "format": "prettier --write '*/**/*.{ts,tsx,css,md,json}'",
+    "lint:css": "stylelint '**/*.{ts,tsx}'",
+    "lint:ts": "eslint --ext .ts,.tsx src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@code-quality/commitlint-config": "^1.1.0",
+    "@code-quality/eslint-config-jest": "^1.1.0",
+    "@code-quality/eslint-config-react": "^1.9.0",
+    "@code-quality/eslint-config-typescript": "^1.10.0",
+    "@code-quality/prettier-config": "^2.1.0",
+    "@code-quality/stylelint-styled-components-config": "^1.7.0",
+    "@commitlint/cli": "^11.0.0",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.7",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.0.6",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.0",
+    "@types/webpack-env": "^1.15.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "gh-pages": "^3.0.0",
+    "husky": "^4.2.5",
+    "jest-styled-components": "^7.0.2",
+    "lint-staged": "^10.2.7",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.5.0",
+    "stylelint-config-prettier": "^8.0.1"
+  }
+}
