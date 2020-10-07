@@ -1,7 +1,21 @@
 {
   "name": "util-alpha-composition",
-  "version": "0.1.0",
+  "version": "1.1.0",
+  "description": "Online tool for calculating full opacity color against various backgrounds.",
+  "keywords": [
+    "css",
+    "color",
+    "util",
+    "tool",
+    "calculator"
+  ],
   "homepage": "https://frontend-unicorns.github.io/util-alpha-composition",
+  "bugs": "https://github.com/frontend-unicorns/util-alpha-composition/issues",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontend-unicorns/util-alpha-composition"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
